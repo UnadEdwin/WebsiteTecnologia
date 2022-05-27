@@ -1,0 +1,666 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+/*headrer*/
+.web-contener{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    background-color:cornflowerblue;
+    
+}
+.Name-company{
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    color:lavenderblush;
+    font-size: 2rem;
+    position: relative;
+    left: 88%;
+    top: 32px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.Nav{
+    width: 100% ;
+    height: 30%;
+    color: aliceblue;
+    position: relative;
+    right: 2%;
+}
+/*section main*/
+.mainsection{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+background-color:#E4E9FF;
+}
+
+.title01{
+    color: lavender;
+    font-size: 1.5rem;
+    font-style: italic;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.img01 {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    position: relative;
+    top: 1.5rem; 
+
+}
+.sec1,.sec2,.sec3,.sec4{
+    color: aliceblue;
+}
+/* seccion 01*/
+
+.section1{
+    width: 100%;
+    height: 100%;
+    background-color: darkcyan;
+}
+
+.img01{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom:  ;
+
+}
+
+.img04{
+     position:relative;
+     left:  50%;
+}
+
+.Formulario{
+ width: 90%;
+ display: flex;
+ flex-direction: column;
+ grid-template-columns: 3fr 3fr;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ left: 20px;
+}
+.img_Iconos{
+    width: 20%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    left: 45%;
+
+}
+.gridsections{
+    display:grid;
+    flex-direction: column;
+    grid-template-columns: 3fr 3fr;
+}
+
+.grid_cont0 div{
+    margin: 6% 0;
+}
+
+.gridit01{ 
+    display:grid;
+    flex-direction: column;
+    grid-template-columns: 3fr;
+    width: 100%;
+    background-color: #6E72FF;
+}
+.gridimg01{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: -2rem;
+}
+
+.gridsec1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: darkcyan;
+}
+
+.gridtitlesec01{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #E4E9FF;
+    width: 100%;
+    width: 100%;
+    height: 2rem;
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.gridtitlesec1{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #E4E9FF;
+    width: 100%;
+    width: 100%;
+    height: 2rem;
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 0px;
+}
+
+.gridtext01{
+    color: #E8F5FF;
+    width: 40%;
+    display: flex;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    font-family: 'Fira Sans', sans-ser
+}
+.gridimg02{
+    background-color: darkcyan;
+    width: 20%;
+    height: 55%;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left:60%;
+    bottom:40%;
+}
+.gridtxt02{
+    color: #E8F5FF;
+    position: relative;
+    top: 35px;
+    left: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1,2rem;
+}
+.gridej{
+    margin: 1% 0;
+    color: #E8F5FF;
+    position: relative;
+    top: 35px;
+    left: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.gridsection02{
+    background-color: #F8F5FF
+}
+.gridsection02 button{
+    display: flexbox;
+    position: relative;
+    left: 100%;
+    top:90px;
+}
+.gridsec02 h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    
+    
+    
+color:darkcyan;
+font-size: 'Roboto Condensed', sans-serif;
+font-size: 2rem;
+background-color:#E8F5FF;
+width: 100%;
+}
+.gridsec02 iframe{
+    position: relative;
+    left: 50px;
+    bottom:60px;
+}
+.gridsec02 a{
+    width: 40%;
+    position: relative;
+    left: 55%;
+    top: 105px;
+    background-color: darkcyan;
+    color: #F8F5FF;
+    border: none;
+
+}
+.gridsec02 p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 55%;
+    top: 60px;
+    width: 45%;
+    color: darkcyan;
+
+}
+.gridsec03{
+    width: 100%;
+    height: 100%;
+    background-color: #F8F5FF;
+
+}
+.gridsec03 h2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    color: darkcyan;
+    background-color: #E8F5FF;
+
+}
+.gridsec03 p{
+    width: 50%;
+    position: relative;
+    left: 45%;
+    top: 65px;
+
+}
+.gridsec03 img{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items:center;
+    position: relative;
+    right: 0%;
+    bottom: 15%;
+}
+.gridsec03 a{
+    width: 50%;
+    position: relative;
+    left: 45%;
+    top: 70px;
+    background-color: darkcyan;
+    color: #F8F5FF;
+    border: none;
+}
+.gridsec04{
+    background-color:darkcyan;
+    width: 100%;
+    height: 100%;
+}
+.gridsec04 h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    color: #E8F5FF;
+    font-size: 3rem;
+    position: relative;
+    left: 25px;
+}
+.gridsec04 h4{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    color: #E8F5FF;
+    font-size: 1.5rem;
+    margin: 4%;
+    
+    
+}
+/*Media quater 1024 px*/
+@media (max-width:1024px){
+    .Nav{
+        width: 85%;
+        height: 5%;
+        position: relative;
+        right: 50%;
+    }
+}
+@media (max-width:1024px){
+    .Name-company{
+        width: 95%;
+        height: 15%;
+        position: relative;
+        left: 80%;
+    }
+}
+@media (max-width:1024px){
+    .mainsection{
+        width: 100%;
+        height: 45%;;
+    }
+}
+@media (max-width:1024px){
+    .gridsections{
+        width: 100%;
+        height: 100%;
+     position: relative;
+     
+    }
+}
+@media (max-width:1024px){
+    .gridtext01{
+        width: 100%;
+        height: 5%;;
+    }
+}
+@media (max-width:1024px){
+    .gridimg02{
+        display: flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: center;
+        width: 25%;
+        height: 25%;
+        position: relative;
+        top: 80px;
+        left: 30%;
+    }
+}
+@media (max-width:1024px){
+    .gridsec02{
+        width: 100%;
+        height: 5%;;
+
+    }
+}
+@media (max-width:1024px){
+    .gridsec02 iframe{
+        width: 25%;
+        height: 30%;
+        position: relative;
+        right: 150px;  }
+}
+
+@media (max-width:1024px){
+    .gridsec03{
+        width: 100%;
+        height: 100%;;
+
+    }
+}
+@media (max-width:1024px){
+    .gridsec03 img{
+        width: 33%;
+        height: 33%;
+        position: relative;
+        left: 8%;
+        top:top 8%
+
+    }
+}
+@media (max-width:1024px){
+    .gridsec03 p{
+        width: 35%;
+        height: 15%;
+        position: relative;
+        top: 20px;
+
+    }
+}
+@media (max-width:1024px){
+    .gridsec033 bottom{
+        width: 35%;
+        height: 15%;
+        position: relative;
+        top: 25px;
+
+    }
+}
+/*media queaker 600 px*/
+@media (max-width:768px){
+    .Nav{
+        width: 75%;
+        height: 15%;
+        position: relative;
+        right: 55%;
+    }
+}
+@media (max-width:768px){
+    .Name-company{
+        width: 95%;
+        height: 15%;
+        position: relative;
+        left: 80%;
+    }
+}
+@media (max-width:768px){
+    .mainsection{
+        width: 100%;
+        height: 45%;;
+    }
+}
+@media (max-width:768px){
+    .gridsections{
+        width: 100%;
+        height: 100%;
+     position: relative;
+     
+    }
+}
+@media (max-width:768px){
+    .gridej{
+        width: 80%;
+        height: 5%;;
+        position: relative;
+        top: 60px;
+    }
+}
+@media (max-width:768px){
+    .gridimg02{
+        display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+        width: 20%;
+        height: 20%;
+        position: relative;
+        top: 120px;
+        left: 30%;
+    }
+}
+@media (max-width:768px){
+    .gridsec02{
+        width: 100%;
+        height: 5%;;
+
+    }
+}
+@media (max-width:768px){
+    .gridsec02 iframe{
+        width: 30%;
+        height: 30%;
+        position: relative;
+        right: 70%
+    }
+}
+
+@media (max-width:768px){
+    .gridsec03{
+        width: 100%;
+        height: 100%;;
+
+    }
+}
+@media (max-width:768px){
+    .gridsec03 img{
+        width: 33%;
+        height: 33%;
+        position: relative;
+        left: 8%;
+        top:top 8%
+
+    }
+}
+@media (max-width:768px){
+    .gridsec03 p{
+        width: 40%;
+        height: 5%;
+        position: relative;
+        top: 20px;
+
+    }
+}
+@media (max-width:768px){
+    .gridsec033 bottom{
+        width: 20%;
+        height: 15%;
+        position: relative;
+        top: 12%;
+
+    }
+}
+/*media queaker 480 px*/
+@media (max-width:480px){
+    .App web{
+        width: 480px;
+        height: 480px;
+        
+
+    }
+}
+@media (max-width:480px){
+    .Nav{
+        width: 100%;
+        height: 15%;
+        position: relative;
+        right: 0%;
+    }
+}
+@media (max-width:480px){
+    .Name-company{
+        width: 90%;
+        height: 10%;
+        position: relative;
+        left: 70%;
+        bottom: 200px;
+        font-size: -5rem;
+    }
+}
+@media (max-width:480px){
+    .mainsection{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width:480px){
+    .gridsections{
+        width: 100%;
+        height: 100%;
+     position: relative;
+     
+    }
+}@media (max-width:480px){
+    .gridtitlesec1{
+        width: 100%;
+        height: 10%;
+     position: relative;
+     top: 12px;
+    }
+}
+@media (max-width:480px){
+    .gridtxt02{
+        width: 100%;
+        height: 10%;
+     position: relative;
+     top:88px;
+    }
+}
+@media (max-width:480px){
+    .gridej{
+        width: 80%;
+        height: 5%;;
+        position: relative;
+        top: 90px;
+    }
+}
+@media (max-width:480px){
+    .gridimg02{
+        display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+        width: 20%;
+        height: 20%;
+        position: relative;
+        top: 140px;
+        left: 30%;
+    }
+}
+@media (max-width:480px){
+    .gridsec02{
+        width: 80%;
+        height: 5%;;
+
+    }
+}
+@media (max-width:480px){
+    .gridsec02 iframe{
+        width: 30%;
+        height: 30%;
+        position: relative;
+        right: 70%
+    }
+}
+
+@media (max-width:480px){
+    .gridsec03{
+        width: 80%;
+        height: 100%;;
+
+    }
+}
+@media (max-width:480px){
+    .gridsec03 img{
+        width: 33%;
+        height: 33%;
+        position: relative;
+        left: 8%;
+        top:top 8%
+
+    }
+}@media (max-width:480px)
+{
+    .gridsec03{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        bottom: 20%;
+
+    }
+
+
+@media (max-width:480px){
+    .gridsec03 bottom{
+        width: 100%;
+        height: 25%;
+        position: relative;
+        bottom: 20%;
+
+    }
+}
+@media (max-width:480px){
+    .gridsec04 h2{
+        font-size: -3rem;
+        width: 80%;
+        height: 20%;
+        position: relative;
+        right: 40px;
+
+    }
+}
+
+
